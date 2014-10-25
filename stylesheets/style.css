@@ -1,0 +1,394 @@
+/* TYPEFACE 
+================================================== */
+body{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; /* primary font */
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-family: 'Vollkorn', serif; /* secondary font */
+}
+
+/* HEADER 
+================================================== */
+div#header{
+  background-image: url("../images/header-bg.png");
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  min-height: 500px;
+}
+  header{
+    margin-top: 24px;
+  }
+  header div{
+    margin: 0;
+    display: inline;
+  }
+  header nav{
+    display: inline;
+  }
+    header nav ul{
+      float: left;
+      list-style-type: none;
+      margin: 30px 0px 0px; /* maybe it's 54px ? */
+    }
+      header nav ul li{
+        display: inline;
+        font-size: 1.125em;
+        padding: 0px 46px 0px 0px;
+      }
+        header nav ul li a{
+          color: #fff;
+          font-weight: 400;
+          text-decoration: none;
+        }
+          header nav ul li a:hover{
+            color: #9575b3;
+          }
+a, a:visited{
+  color: #fff;
+}
+
+/* Marketing Header Display
+================================================== */
+div#marketing{
+  text-align: center;
+  margin-top: 92px;
+}
+  div#marketing h1{ 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4.236em;
+    color: #fff;
+    line-height: 1.1em;
+    margin: 0;
+  }
+  div#marketing h2{
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1em;
+    margin: 24px 0 0;
+  }
+/* Sign Up Button
+================================================== */
+div#signup-btn{
+  margin: 38px 0 100px;
+}
+.button,
+    button,
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"] {
+  background: #ff7f00;  
+  border-radius: 88px;
+  display: block; 
+  border: none;
+  border-bottom: 3px solid #cc3300;
+}
+  .button:hover{
+    background: #ff4000;
+    border-radius: 88px;
+    display: block; /* so the button can take up the whole width of columns */
+    border: none;
+    border-bottom: 3px solid #992600;
+  }
+a.button{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.617em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;  
+}
+  a.button:hover{
+    color: #fff;
+  }
+/*  SCREENSHOT 
+================================================== */
+section#screenshot h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.618em;
+  color: #639;
+  text-align: center;
+  margin: 90px 0 0;
+}
+section#screenshot img{
+  margin-top: 24px;
+}
+section#screenshot p{
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-size: 1em;  
+  text-align: center;
+  color: #999999;
+  margin: 24px 0 0;
+}
+
+/* FEATURES
+================================================== */
+section#features div.container{
+  margin-top: 100px;
+}
+section#features h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.618em;
+  color: #639;
+  text-align: left;
+  margin: 30px 0 37px;
+}
+section#features p{
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-size: 1em;  
+  text-align: left;
+  color: #999999;
+}
+
+/* Testimonial 
+================================================== */ 
+section#testimonials{
+  background: #ededed;
+  margin-top: 70px;
+  padding-bottom: 70px;
+}
+.title{
+  padding-top: 70px;
+}
+section#testimonials h3{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.618em;
+  color: #639;
+  text-align: center;
+}
+section#testimonials div.container{
+  padding-top: 70px;
+}
+section#testimonials blockquote{
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-size: 1.555em;
+  font-style: normal;
+  line-height: 1.3;
+  text-indent: -0.35em;
+  padding: 0;
+  color: #666666;
+  border: none;
+  text-align: left;
+  margin: 20px 0 12px;
+}
+
+  
+section#testimonials cite{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.3em;
+  color: #9966cc;
+}
+section#testimonials img{
+  margin-top: 
+}
+
+/* PRICING 
+================================================== */
+section#pricing{
+  margin-top: 
+}
+section#pricing h3{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.618em;
+  color: #639;
+  text-align: center;
+}
+section#pricing h4{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.617em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+section#pricing p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.617em;
+  color: #fff;
+  text-align: center;
+  margin: 28px 0 0;
+}
+section#pricing .pricebox.pro header p{
+  margin-top: 40px;
+}
+section#pricing span{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 50px; /* change it to em */
+  color: #fff;
+}
+.pricebox{
+  background-color: #cccccc;
+  height: 427px;
+  position: relative;
+  margin-top: 78px;
+}
+.pricebox.pro{
+  background-color: #cccccc;
+  height: 480px;
+  position: relative;
+  margin-top: 53px;
+}
+.pricebox header{
+  background-color: #666666;
+  padding: 1em 0;
+  border-bottom: 10px solid #000000;
+  margin: 0;
+  padding-bottom: 26px;
+}
+.pro header{
+  background-color: #993399;
+  border-bottom: 10px solid #626;
+  padding-bottom: 40px;
+}
+.pricebox section ul{
+  margin-top: 17px;
+  text-align: center;
+  min-height: 165px; /* so button on basic box aligned with button on enterprice box */
+}
+.pricebox.pro section ul{
+  margin-top: 26px;
+}
+  .pricebox section ul li{
+    font-size: 25px; /* change it to em */
+    margin-bottom: 30px;
+    color: #555;
+  }
+    .pricebox section a{
+      background-color: #666666;
+      border-bottom: 3px solid #191919;
+      width: 218px;
+      margin: 0 auto;
+    }
+      .pricebox section a:hover{
+      background-color: #4d4d4d;
+      border-bottom: 3px solid #000000;
+    }
+    .pricebox.pro section a{
+      background-color: #993399;
+      border-bottom: 3px solid #626;
+      margin-top: 40px;
+    }
+      .pricebox.pro section a:hover{
+      background-color: #732673;
+      border-bottom: 3px solid #303;
+    }
+
+/* Email Subscription 
+================================================== */
+section#email{
+  background-image: url(../images/email-bg.png); 
+  background-size: cover;
+  background-position: center center;
+  min-height: 330px;
+  margin: 90px 0 0 0;
+  padding-bottom: 20px;
+}
+section#email h5{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.938em;
+  color: #fff;
+  text-align: center;
+  margin: 130px 0 50px;
+}
+section#email form{
+  margin: 0 0 15px 0;
+  padding: 0;
+  text-align: center;
+}
+  section#email form input[name="email"]{
+    display: inline;
+    box-sizing: border-box;
+    width: 425px;
+    height: 55px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #5f407c;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    border: none;
+    border-radius: 88px;
+    padding-left: 30px;
+    margin-right: 10px;
+  }
+    ::-webkit-input-placeholder,
+    :-moz-placeholder, /* Firefox 18- */
+    ::-moz-placeholder, /* Firefox 19+ */
+    :-ms-input-placeholder{
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      color: #9575b3;
+      font-weight: 300;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      vertical-align: middle;
+    }
+  section#email form button[type="submit"]{
+    display: inline;
+    width: 225px;
+    font-weight: 400;
+    font-size: 25.33px;
+    color: #fff;  
+    text-shadow: none;
+    padding: 11px 10px;
+  }
+
+/* Footer 
+================================================== */
+footer{
+  background-color: #3b1d58;
+}
+footer nav ul{
+  margin: 35px 0 20px 0;
+}
+  footer nav ul li{
+    display: inline;
+    margin: 0 30px 0 0;
+  }
+    footer nav ul li a{
+      color: #fff;
+      font-weight: 300;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    footer nav ul li a:hover{
+      color: #9575b3;
+    }
+footer div#social-icons ul{
+  float: right;
+  margin: 26px 0 20px 0;
+}
+  footer div#social-icons ul li{
+    display: inline;
+    margin: 0 0 0 33px;
+  }
+
+/* responsive */    
+
+
+
+
+
+
+
+
+
+

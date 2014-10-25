@@ -96,6 +96,15 @@ div#signup-btn{
     border: none;
     border-bottom: 3px solid #992600;
   }
+  .button:active{
+    background: #ff4000;
+    border-radius: 88px;
+    display: block; /* so the button can take up the whole width of columns */
+    border: none;
+    border-bottom: 1px solid #992600;
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+  }
 a.button{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -266,7 +275,7 @@ section#pricing span{
   margin-top: 26px;
 }
   .pricebox section ul li{
-    font-size: 25px; /* change it to em */
+    font-size: 20px; /* change it to em */
     margin-bottom: 30px;
     color: #555;
   }

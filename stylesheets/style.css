@@ -1,3 +1,17 @@
+/* Table of Content
+==================================================
+  #typeface
+  #Header
+  #Marketing Header Display
+  #Sign Up Button
+  #Screenshot
+  #Features
+  #Testimonial
+  #Pricing 
+  #Email Subscription
+  #Footer
+  #Media Queries */
+
 /* TYPEFACE 
 ================================================== */
 body{
@@ -5,6 +19,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.2em;
 }
 p{
   font-family: 'Vollkorn', serif; /* secondary font */
@@ -30,7 +45,7 @@ div#header{
     display: inline;
   }
     header nav ul{
-      float: left;
+      float: right;
       list-style-type: none;
       margin: 30px 0px 0px; /* maybe it's 54px ? */
     }
@@ -43,6 +58,10 @@ div#header{
           color: #fff;
           font-weight: 400;
           text-decoration: none;
+        }
+        header nav ul li.selected a{
+        padding-bottom: 8px;
+        border-bottom: 2px solid #fff;
         }
           header nav ul li a:hover{
             color: #9575b3;
@@ -118,6 +137,10 @@ a.button{
   }
 /*  SCREENSHOT 
 ================================================== */
+section#screenshot {
+  background-color: #ededed;
+  height: 500px; /* grey bg should just cover half of the screenshot */
+}
 section#screenshot h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -140,6 +163,9 @@ section#screenshot p{
 
 /* FEATURES
 ================================================== */
+section#features{
+  margin-top: 307px;
+}
 section#features div.container{
   margin-top: 100px;
 }
@@ -200,9 +226,6 @@ section#testimonials cite{
   font-style: italic;
   font-size: 1.3em;
   color: #9966cc;
-}
-section#testimonials img{
-  margin-top: 
 }
 
 /* PRICING 
@@ -390,9 +413,124 @@ footer div#social-icons ul{
     margin: 0 0 0 33px;
   }
 
-/* responsive */    
+/* #Media Queries
+================================================== */
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 959px) {}
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {}
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {
+          header div#logo{
+      display: block;
+      text-align: center;
+      margin-top:20px;
+    }
+    header nav{
+      display: block;
+    }
+      header nav ul{
+        float: none;
+        text-align: center;
+        margin-top: 100px;
+      }
+        header nav ul li{
+          display: block;
+          padding: 5px 0;
+        }
+          header nav ul li.selected{
+             background-color: #3b1d58;
+          }
+            header nav ul li.selected a{
+                padding-bottom: 0px;
+                border-bottom: none;
+                }
+
+    div#marketing{
+      margin-top: 20px;
+    }
+    div#marketing h1{
+      font-size:45px;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    div#marketing h2{
+      text-align: left;
+      line-height: 1.2;
+    }
+
+/* trying to get the nav list becomes full width, but so difficult */
+    /*footer div.container,
+    footer div div.ten.columns{
+      width: 100%;
+    }*/
+    footer nav{
+      display: block; 
+    }
+      footer nav ul{
+        float: none;
+        margin-top: 0;
+      }
+        footer nav ul li{
+          display: block;
+          margin-right: 0;
+          text-align: center;
+        }
+          footer nav ul li a{
+            display: block;
+            border-bottom: solid #5f407c 1px;
+            padding: 20px 50px;
+          }
+    footer div#social-icons ul{
+      float: none;
+      text-align: center;
+      margin:10px 0 20px 0;
+    }    
+      footer div#social-icons ul li{
+        margin:0 10px;
+      }      
 
 
+
+
+
+
+          
+    /* to change the sequences of img and text in the features section */
+    section#features div.feature-img{
+      float: left;
+    }
+    section#features div.feature-text{
+      clear: both;
+    }
+
+/* to reduce the size of profile pictures and try to center them */ 
+    section#testimonials div.testimonials{
+      text-align: center;
+    }
+      section#testimonials img{
+        height: 200px;
+        width: 200px;
+        float: none;
+      }
+      section#testimonials blockquote{
+        text-align: center;
+        font-size: 1.2em;
+      }
+      section#testimonials cite{
+        font-size: 1em;
+      }
+
+  }
 
 
 
